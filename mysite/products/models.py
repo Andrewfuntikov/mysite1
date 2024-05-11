@@ -1,7 +1,4 @@
-import django
-import os
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite.settings')
-django.setup()
+
 from django.db import models
 # Create your models here.
 class ProductCategory(models.Model):
